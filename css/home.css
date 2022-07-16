@@ -1,0 +1,562 @@
+
+
+/* <<About page csss>> */
+.about-v1-area {
+    position: relative;
+    padding: 0 0 156px;
+  }
+  
+  .about-v1-area .about-v1-content .title {
+    font-size: 47px;
+    line-height: 52px;
+  }
+  
+  .about-v1-area .about-v1-content .title-2 {
+    color: #46d6fa;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 34px 0 0;
+  }
+
+
+  .item-bounce {
+    -webkit-animation: bounce 3s infinite ease-in-out;
+    animation: bounce 3s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes bounce {
+    0% {
+      -webkit-transform: translateY(-5px);
+              transform: translateY(-5px);
+    }
+    50% {
+      -webkit-transform: translateY(10px);
+              transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(-5px);
+              transform: translateY(-5px);
+    }
+  }
+  
+  @keyframes bounce {
+    0% {
+      -webkit-transform: translateY(-5px);
+              transform: translateY(-5px);
+    }
+    50% {
+      -webkit-transform: translateY(10px);
+              transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(-5px);
+              transform: translateY(-5px);
+    }
+  }
+  
+  .item-round {
+    -webkit-animation: round 3s infinite linear;
+    animation: round 3s infinite linear;
+  }
+  
+  @-webkit-keyframes round {
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes round {
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  .item-zoom-inout {
+    -webkit-animation: zoom-inout 3s infinite ease-in-out;
+    animation: zoom-inout 3s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes zoom-inout {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  @keyframes zoom-inout {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+/* <<About page end>> */
+
+
+/* <<<Finacial Part Css>>> */
+
+.about-v2-area {
+    position: relative;
+    padding: 0 0 180px;
+  }
+  
+  .about-v2-area .about-v2-bg {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .about-v2-area .about-v2-content .title {
+    font-size: 47px;
+    line-height: 52px;
+  }
+  
+  .about-v2-area .about-v2-content .title-2 {
+    color: #46d6fa;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 34px 0 0;
+  }
+  
+  .about-v2-area .about-v2-content .text {
+    color: #c7bef3;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 34px 0 0;
+  }
+
+  /* <<<Finacial Part Css End>>> */
+
+
+  /* <<Why part css>> */
+
+  .why-area {
+    position: relative;
+    background: #120a39;
+    padding: 160px 0 100px;
+  }
+  
+  .why-area .why-bg {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+  
+  .why-area .why-left-content .title {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 900;
+  }
+  
+  .why-area .why-left-content .text {
+    color: #46d6fa;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 0;
+  }
+  
+  .why-area .why-left-content .text-2 {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0 0;
+  }
+  .service-1 .icon i {
+    font-size: 30px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff13b0), to(#7a17f9));
+    background: linear-gradient(180deg, #ff13b0 0%, #7a17f9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .service-1 .icon img {
+    max-height: 30px;
+  }
+
+  .home2 .why-area .why-left-content .title {
+    color: #28384c;
+  }
+  
+  .home2 .why-area .why-left-content .text {
+    color: #3c4dc1;
+  }
+  
+  .home2 .why-area .why-left-content .text-2 {
+    color: #28384c;
+  }
+
+  /* <<Why part Css end>> */
+
+
+  
+.section-title {
+    text-align: center;
+    margin: 0 0 80px;
+  }
+  
+  .section-title .title {
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+  }
+  
+  .section-title .text {
+    color: #46d6fa;
+    font-size: 23px;
+    line-height: 35px;
+    margin: 32px 0 0;
+  }
+
+  /* <<token part css>> */
+
+  .token-area {
+    background: #120a39;
+    overflow-x: hidden;
+    position: relative;
+    padding: 68px 0 90px;
+  }
+  
+  .token-area .section-title {
+    position: relative;
+    z-index: 1;
+    margin: 0 0 144px;
+  }
+  
+  .token-area .token-info-all {
+    overflow: hidden;
+  }
+  
+  .token-area .token-info-all .single {
+    background: #251b53;
+    min-height: 165px;
+    max-height: 165px;
+    min-width: 165px;
+    max-width: 165px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border-radius: 3px;
+    padding: 30px 5px 10px;
+    margin: 0 0 30px;
+  }
+  
+  .token-area .token-info-all .single .title {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+  
+  .token-area .token-info-all .single .text {
+    color: #c7bef3;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0 0;
+  }
+  
+  .token-area .token-info-all .single:nth-child(odd) {
+    float: right;
+  }
+  
+  .token-area .token-info-all.style-2 .single:nth-child(even) {
+    float: right;
+  }
+  
+  .token-area .token-info-all.style-2 .single:nth-child(odd) {
+    float: none;
+  }
+  
+  .token-area .token-banner-main {
+    text-align: center;
+    position: relative;
+  }
+  
+  .token-area .token-banner-main img {
+    margin: auto;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .token-area .token-banner-main .tb-bg {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    -webkit-transform: scale(1.65);
+            transform: scale(1.65);
+  }
+  
+  .token-area .token-banner-main .tb-bg img {
+    width: 100%;
+  }
+  
+  .token-area .token-banner-main .link {
+    position: relative;
+    z-index: 2;
+    margin: 34px 0 0;
+  }
+  
+  
+ 
+  
+.home2 .token-area {
+    background: transparent;
+    padding: 68px 0 188px;
+  }
+  
+  .home2 .token-area .token-bg-h2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .home2 .token-area .token-bg-h2 img {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .home2 .token-area .token-info-all .single {
+    background: -webkit-gradient(linear, left top, right top, from(#3e43e2), to(#3c8bf7));
+    background: linear-gradient(90deg, #3e43e2 0%, #3c8bf7 100%);
+  }
+  
+  .home2 .token-area .token-info-all .single .title {
+    color: #ffffff;
+  }
+  
+  .home2 .token-area .token-info-all .single .text {
+    color: #c7bef3;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0 0;
+  }
+ 
+
+  /* <<token part css end>> */
+  
+
+
+  /* <<<Asked Question part css>> */
+
+  .faq-area {
+    position: relative;
+    background: url(../img/home-one/faq-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 236px 0 180px;
+  }
+  
+  .faq-area .faq-content .title {
+    font-size: 68px;
+    line-height: 70px;
+    margin: 0 0 40px;
+  }
+  
+  .faq-area .faq-content .accordion .card {
+    border: 0;
+    border-bottom: 0;
+    background: transparent;
+    margin: 0 0 20px;
+    padding: 0;
+  }
+  
+  .faq-area .faq-content .accordion .card .card-header {
+    background: #31246f;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .faq-area .faq-content .accordion .card .card-header .mb-0 {
+    margin: 0;
+  }
+  
+  .faq-area .faq-content .accordion .card .card-header .mb-0 .btn {
+    color: #ffffff;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-decoration: none;
+    position: relative;
+    border: 0;
+    padding: 17px 20px;
+  }
+  
+  .faq-area .faq-content .accordion .card .card-header .mb-0 .btn .icon {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+    font-size: 14px;
+  }
+  
+  .faq-area .faq-content .accordion .card .card-header .mb-0 .btn.collapsed .icon {
+    -webkit-transform: translateY(-50%) rotate(0);
+            transform: translateY(-50%) rotate(0);
+  }
+  
+  .faq-area .faq-content .accordion .card .collapse .card-body, .faq-area .faq-content .accordion .card .show .card-body, .faq-area .faq-content .accordion .card .collapsing .card-body {
+    background: #251b53;
+    color: #c7bef3;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    padding: 20px;
+    border: 0;
+  }
+  
+  .faq-area .faq-banner {
+    text-align: right;
+  }
+
+  
+.home2 .faq-area {
+    background-image: none;
+    padding: 0 0 80px;
+  }
+  
+  .home2 .faq-area .faq-content .title {
+    color: #28384c;
+  }
+  
+  .home2 .faq-area .faq-content .accordion .card .card-header {
+    background: #ffffff;
+  }
+  
+  .home2 .faq-area .faq-content .accordion .card .card-header .mb-0 .btn {
+    background: #d8d7e3;
+    color: #28384c;
+  }
+  
+  .home2 .faq-area .faq-content .accordion .card .collapse .card-body, .home2 .faq-area .faq-content .accordion .card .show .card-body, .home2 .faq-area .faq-content .accordion .card .collapsing .card-body {
+    background: #ffffff;
+    color: #28384c;
+  }
+  
+
+  /* <<Asked question css part end>> */
+
+
+
+
+  /* <<<<Contact Us start>>>> */
+
+  .contact-area {
+    padding: 150px 0 148px;
+  }
+  
+  .contact-area .contact-info-single {
+    margin: 0 0 40px;
+  }
+  
+  .contact-area .contact-info-single .info {
+    font-size: 18px;
+    line-height: 50px;
+    color: #ffffff;
+  }
+  
+  .contact-area .contact-info-single .info a {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .contact-area .contact-info-single .info .icon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    border-radius: 100px;
+    text-align: center;
+    background: #0d9cea;
+    margin-right: 10px;
+  }
+  
+  .contact-area #cf .contact-form-input {
+    margin: 0 0 32px;
+  }
+  
+  .contact-area #cf .contact-form-input input {
+    background: #251b53;
+    border: none;
+    height: 58px;
+    width: 100%;
+    padding: 10px 18px;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  
+  .contact-area #cf .contact-form-input textarea {
+    background: #251b53;
+    border: none;
+    height: 108px;
+    width: 100%;
+    padding: 10px 18px;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  
+  .contact-area #cf .contact-form-input button {
+    cursor: pointer;
+  }
+  
+  /*mail*/
+  .cf-msg {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .cf-msg p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+
+  
+  /* <<<Contact Us end >>> */
