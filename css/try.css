@@ -1,9 +1,14 @@
 .card-custom {
-    overflow: hidden;
+    overflow: hidden; 
     min-height: 100px;
-    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    box-shadow: 0 0 15px rgba(34, 33, 33, 0.3);
     border-top-left-radius: 30%;
-    background-image: linear-gradient(to bottom, blue, orange);
+    background-image: linear-gradient(to bottom, rgb(229, 140, 247), rgb(46, 76, 122));
+  }
+
+  .card-custom:hover{
+    
+    background-image: linear-gradient(to bottom, rgb(204, 58, 155), rgb(46, 76, 122));
   }
 
 
