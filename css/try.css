@@ -11,6 +11,16 @@
     background-image: linear-gradient(to bottom, rgb(204, 58, 155), rgb(46, 76, 122));
   }
 
+  @media only screen and (max-width: 750px) {
+    .card-custom{
+      min-height: 50px;
+      width: 70%;
+      margin-left: 10% !important;
+      justify-content: center;
+      margin: 1%;
+    }
+  }
+
 
   
   .card-custom-img {

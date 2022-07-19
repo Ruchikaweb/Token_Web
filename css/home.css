@@ -361,8 +361,8 @@
     background-color:#5c4be0;
     border: 2px solid black;
     transform: skew(20deg);
-    text-align: center;
-    justify-content: center;
+    text-align: center !important;
+    justify-content: center !important;
   }
 
   #lastactivehover :hover{
@@ -416,4 +416,57 @@
     font-weight: bold;
     text-align: center;
     justify-content: center;
+  }
+
+
+  .vediocollection{
+    visibility: hidden;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .vediocollection{
+      visibility: visible;
+    }
+  }  
+
+  @media only screen and (man-width: 7500px) {
+    .btndisplay{
+      visibility: hidden;
+    }
+  }
+
+  @media only screen and (min-width: 400px) {
+    .btndisplay{
+      visibility: hidden;
+    }
+  }    
+
+  @media only screen and (max-width: 750px) {
+    .btn-card-top-navigations{
+      width: 13%;
+      padding: 1px;
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    #btn-card-top-navigationss:hover{
+    background-color: #ad5dbd !important;
+    font-size: 10px;
+    }
+  }
+ 
+  @media only screen and (max-width: 750px) {
+    #idformarginset{
+      margin-left: 1% !important;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    #dayseditt{
+      width: 30%;
+      padding: 1px;
+      margin: 1% !important;
+      font-size: 15px;
+    }
   }
